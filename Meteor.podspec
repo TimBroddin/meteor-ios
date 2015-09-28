@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
 	s.frameworks = 'CoreData'
 
-  s.dependency 'PocketSocket'
+  s.dependency 'PocketSocket', :git => https://github.com/TimBroddin/PocketSocket.git
   s.dependency 'InflectorKit'
   s.dependency 'SimpleKeychain'
 end
